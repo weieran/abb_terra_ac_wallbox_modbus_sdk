@@ -18,6 +18,8 @@ Python SDK and CLI to control ABB Terra AC Wallbox via Modbus TCP.
 ## Requirements
 
 ```bash
+python3 -m venv venv
+. venv/bin/activate
 pip3 install pymodbus==3.5.1
 ```
 
